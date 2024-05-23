@@ -1,2 +1,7 @@
-<!--pages/pagination/pagination.wxml-->
-<text>pages/pagination/pagination.wxml</text>
+<view class="page">
+  <view class="charactors">
+    <view wx:for="{{charactors}}" wx:key="index" wx:for-item="charactor" class="charactor">
+      <text>{{charactor.char}}</text>
+    </view>
+  </view>
+</view>

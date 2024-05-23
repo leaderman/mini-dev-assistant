@@ -1,1 +1,10 @@
-/* pages/pagination/pagination.wxss */
+.charactors {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 50px 10px;
+}
+
+.charactor {
+  display: flex;
+}

@@ -2,7 +2,7 @@
   "pages": ["pages/index/index"],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "微信小程序开发助手",
     "navigationBarBackgroundColor": "#ffffff"
   },
   "style": "v2",

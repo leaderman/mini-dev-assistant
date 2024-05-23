@@ -25,8 +25,7 @@ Page({
     const startTime = Date.now();
 
     // 将文本内容拆分为字符数组
-    const chars = this.data.text.split("").map((char, index) => ({
-      index,
+    const chars = this.data.text.split("").map((char) => ({
       char,
     }));
 

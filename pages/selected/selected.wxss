@@ -1,0 +1,14 @@
+.charactors {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 50px 10px;
+}
+
+.charactor {
+  display: flex;
+}
+
+.charactor-selected {
+  background-color: red;
+}

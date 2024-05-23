@@ -1,0 +1,12 @@
+<view class="page">
+  <view class="charactors" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtap="tap">
+    <view
+      wx:for="{{charactors}}"
+      wx:key="index"
+      wx:for-item="charactor"
+      class="charactor {{charactor.selected ? 'charactor-selected' : ''}}"
+    >
+      <text>{{charactor.char}}</text>
+    </view>
+  </view>
+</view>

@@ -1,5 +1,9 @@
 {
-  "pages": ["pages/index/index", "pages/pagination/pagination"],
+  "pages": [
+    "pages/index/index",
+    "pages/pagination/pagination",
+    "pages/selected/selected"
+  ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "微信小程序开发助手",

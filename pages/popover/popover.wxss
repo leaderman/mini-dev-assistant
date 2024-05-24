@@ -1,0 +1,30 @@
+.page {
+  padding: 50px 10px;
+}
+
+.charactors {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.charactor {
+  display: flex;
+}
+
+.charactor-selected {
+  background-color: red;
+}
+
+.popover {
+  position: absolute;
+
+  border-radius: 50%;
+
+  background-color: #ebebeb;
+
+  overflow: hidden;
+}
+
+.charactors-popover {
+  position: absolute;
+}

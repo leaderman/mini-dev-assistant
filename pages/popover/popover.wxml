@@ -1,0 +1,38 @@
+<view class="page">
+  <view
+    class="charactors"
+    bindtouchstart="touchStart"
+    bindtouchmove="touchMove"
+    bindtouchend="touchEnd"
+    bindtap="tap"
+  >
+    <view
+      wx:for="{{charactors}}"
+      wx:key="index"
+      wx:for-item="charactor"
+      class="charactor {{charactor.selected ? 'charactor-selected' : ''}}"
+    >
+      <text>{{charactor.char}}</text>
+    </view>
+  </view>
+
+  <view
+    wx:if="{{touched && startSelectedCharactor >= 0 && endSelectedCharactor >= 0}}"
+    class="popover"
+    style="left: {{popoverX}}px; top: {{popoverY}}px; width: {{popoverWidth}}px; height: {{popoverHeight}}px;"
+  >
+    <view
+      class="charactors charactors-popover"
+      style="left: {{charactorsPopoverX}}px; top: {{charactorsPopoverY}}px; width: {{charactorsRect.width}}px;"
+    >
+      <view
+        wx:for="{{charactors}}"
+        wx:key="index"
+        wx:for-item="charactor"
+        class="charactor {{charactor.selected ? 'charactor-selected' : ''}}"
+      >
+        <text>{{charactor.char}}</text>
+      </view>
+    </view>
+  </view>
+</view>

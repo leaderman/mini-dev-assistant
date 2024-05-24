@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/pagination/pagination",
-    "pages/selected/selected"
+    "pages/selected/selected",
+    "pages/popover/popover"
   ],
   "window": {
     "navigationBarTextStyle": "black",
